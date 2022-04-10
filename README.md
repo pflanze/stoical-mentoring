@@ -25,9 +25,11 @@ actively with the session.
 Since standard VNC doesn't offer encryption, it's usually used via
 some kind of tunneling, I'm normally using SSH tunneling. Thus to
 access our VNC session directly (not just looking at it in Jitsi),
-I'll ask for your SSH public key, which I'll install on the
-server. Also, VNC itself uses a password, which will be the value
-`12345678` here.
+you'll need to give me (one of) your SSH public key(s), which I'll
+install on the server. Additionally, VNC itself uses a password, which
+will be the value `12345678` for these sessions (I don't think any
+outside actor will be able to get a connection to the VNC server
+running on localhost).
 
 ### Linux and alikes
 
