@@ -18,6 +18,10 @@ and perfectly sharp pictures, though).
 
 ## VNC client setup
 
+Again, you can ignore this section if you're happy with the quality of
+the screen share that I'll offer via Jitsi and don't want to interact
+actively with the session.
+
 Since standard VNC doesn't offer encryption, it's usually used via
 some kind of tunneling, I'm normally using SSH tunneling. Thus to
 access our VNC session directly (not just looking at it in Jitsi),
