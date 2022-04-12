@@ -7,7 +7,7 @@ I'll post here if/when sessions will be happening.
 
 Send a mail with subject "STOICAL mentoring" to Christian Jaeger
 <ch@christianjaeger.ch> if you'd like to be notified when there are
-news. (If you've got a Github account you could also enable
+news. (If you've got a Github account you could instead enable
 notifications on this repo.)
 
 I'm currently planning to do the sessions via Jitsi meet, and
@@ -20,21 +20,20 @@ and perfectly sharp pictures, though).
 
 Again, you can ignore this section if you're happy with the quality of
 the screen share that I'll offer via Jitsi and don't want to interact
-actively with the session.
+actively with the session (other than talking or sending chat messages).
 
 Since standard VNC doesn't offer encryption, it's usually used via
-some kind of tunneling, I'm normally using SSH tunneling. Thus to
-access our VNC session directly (not just looking at it in Jitsi),
+some kind of tunneling, I'm normally using SSH tunneling. Thus
 you'll need to give me (one of) your SSH public key(s), which I'll
 install on the server. Additionally, VNC itself uses a password, which
 will be the value `12345678` for these sessions (I don't think any
 outside actor will be able to get a connection to the VNC server
 running on localhost).
 
-### Linux and alikes
-
 *Note: stoical-mentoring.christianjaeger.ch is not active yet. I'll
-let you know when it is so you could test in advance if you'd like.*
+let you know when it is, so you could test in advance if you'd like.*
+
+### Linux and alikes
 
 1. Install `tigervnc-viewer` and create a VNC passwd file:
 
