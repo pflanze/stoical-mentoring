@@ -1,7 +1,11 @@
 # Mentoring sessions for fixing STOICAL for today's machines
 
-Or maybe rather "coworking", since I'm not going to be the perfect
-mentor, and attendees will probably know things that I don't.
+As per the [sub-thread](https://news.ycombinator.com/item?id=30958590)
+at [Old C code – how to upgrade
+it?](https://news.ycombinator.com/item?id=30957273).
+
+Maybe more "coworking" than "mentoring", since I'm not going to be the
+perfect mentor, and attendees will probably know things that I don't.
 
 I'll post here if sessions will be happening. Once it's decided a
 session will happen, I'm planning to put up a poll to find out which
