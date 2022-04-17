@@ -3,18 +3,23 @@
 Or maybe rather "coworking", since I'm not going to be the perfect
 mentor, and attendees will probably know things that I don't.
 
-I'll post here if/when sessions will be happening.
+I'll post here if sessions will be happening. Once it's decided a
+session will happen, I'm planning to put up a poll to find out which
+out of a choice of date/time alternatives will be best.
 
 Send a mail with subject "STOICAL mentoring" to Christian Jaeger
 <ch@christianjaeger.ch> if you'd like to be notified when there are
-news. (If you've got a Github account you could instead enable
-notifications on this repo.)
+news. If you've got a Github account you could instead enable
+notifications on this repo.
 
 I'm currently planning to do the sessions via Jitsi meet, and
 (optionally) allow anyone interested to access the VNC session on the
 shared server directly. I'll also share my desktop in Jitsi for those
-who don't want to or can't use VNC (VNC does have better frame rates
+who don't want to or can't use VNC (VNC does offer better frame rates
 and perfectly sharp pictures, though).
+
+As per current planning, there will be no recording. I'm still
+pondering this point, though.
 
 ## VNC client setup
 
@@ -22,7 +27,7 @@ Again, you can ignore this section if you're happy with the quality of
 the screen share that I'll offer via Jitsi and don't want to interact
 actively with the session (other than talking or sending chat messages).
 
-Since standard VNC doesn't offer encryption, it's usually used via
+Since standard VNC doesn't offer encryption, it is usually used via
 some kind of tunneling, I'm normally using SSH tunneling. Thus
 you'll need to give me (one of) your SSH public key(s), which I'll
 install on the server. Additionally, VNC itself uses a password, which
@@ -74,10 +79,11 @@ let you know when it is, so you could test in advance if you'd like.*
 
     Or you could omit the -FullScreen option, but then your local
     window manager will capture some key strokes that you might want
-    to go to the server.
+    to direct to the server.
     
     The MenuKey, F7, will allow you to open a menu locally that will
-    allow you to disable full-screen mode or exit the VNC viewer.
+    allow you to disable and enable full-screen mode or exit the VNC
+    viewer.
 
 Then, to access the session, you need to first run
 `stoical-mentoring-tunnel` in a terminal and keep it open, and then
@@ -86,4 +92,4 @@ run `stoical-mentoring-vnc`.
 ### Other systems
 
 I'm not using other systems and don't know the best ways there. I'll
-be happy if you do and let me know.
+be happy to include details here if you do and let me know.
